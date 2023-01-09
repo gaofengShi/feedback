@@ -1,8 +1,8 @@
 const config = {};
 
-config.host = process.env.HOST || "https://sumpro-db.documents.azure.com:443/";
+config.host = process.env.HOST || "[the endpoint URI of your Azure Cosmos DB account]";
 config.authKey =
-  process.env.AUTH_KEY || "KkqVqln33AR4XDWmfZCLhKl58YCWXTKQzsDZWhsa8LtznYlOOUY4XSjnCvV7SYwn6sF0xNkALPdGACDbN7VY9w==";
+  process.env.AUTH_KEY || "[the Primary KEY value of your Azure Cosmos DB account]";
 config.databaseId = "sumproDB";
 config.containerId = "Collection01";
 
